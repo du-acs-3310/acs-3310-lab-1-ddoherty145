@@ -23,3 +23,19 @@ export function pluckNames(items: { name: string }[]): string[] {
 export function repeat(text: string, count: number): string {
   return Array.from({ length: count }, () => text).join('')
 }
+
+export function add(a: number, b: number): number {
+  return a + b
+}
+
+export function isEven(value: number): boolean {
+  return value % 2 === 0
+}
+
+export function makeUser(name: string, age: number): { name: string; age: number } {
+  return { name, age }
+}
+
+export function printLength(text: string): number {
+  return text.length
+}
